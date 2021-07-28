@@ -10,6 +10,15 @@
 
 ![OPS](https://blogs.fangraphs.com/wp-content/uploads/2011/04/OBP.png)
 
+### H = Hits - when the batter strikes the ball without error
+### BB = Walks - when a pitcher throws four pitches out of the strike zone, none of which are swing at by the batter
+### HBP = Hit by pitch - when a batter is struck by a pitched ball without swinging at it and is awarded first base.
+### AB = At bat - when a batter reaches base via fielder's choice, hit, or error (not including catcher's interference)
+### SF = Sacrifice fly - when a batter hits a fly-ball to the outfield or foul territory that allows a runner to score
+### 1B = Single - when batter hits the ball and reaches first base
+### 2B = Double - when batter hits the ball and reaches second base
+### 3B = Triple - when batter hits the ball and reaches third base
+### HR = Home run - when batter hits the ball and circles all four bases
 
 ## Model:
 ### Long Short-term memory, recurrent neural network
