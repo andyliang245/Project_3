@@ -10,18 +10,24 @@
 
 ![OPS](https://blogs.fangraphs.com/wp-content/uploads/2011/04/OBP.png)
 
-### H = Hits - when the batter strikes the ball without error
-### BB = Walks - when a pitcher throws four pitches out of the strike zone, none of which are swing at by the batter
-### HBP = Hit by pitch - when a batter is struck by a pitched ball without swinging at it and is awarded first base.
-### AB = At bat - when a batter reaches base via fielder's choice, hit, or error (not including catcher's interference)
-### SF = Sacrifice fly - when a batter hits a fly-ball to the outfield or foul territory that allows a runner to score
-### 1B = Single - when batter hits the ball and reaches first base
-### 2B = Double - when batter hits the ball and reaches second base
-### 3B = Triple - when batter hits the ball and reaches third base
-### HR = Home run - when batter hits the ball and circles all four bases
+#### H = Hits - when the batter strikes the ball without error
+#### BB = Walks - when a pitcher throws four pitches out of the strike zone, none of which are swing at by the batter
+#### HBP = Hit by pitch - when a batter is struck by a pitched ball without swinging at it and is awarded first base.
+#### AB = At bat - when a batter reaches base via fielder's choice, hit, or error (not including catcher's interference)
+#### SF = Sacrifice fly - when a batter hits a fly-ball to the outfield or foul territory that allows a runner to score
+#### 1B = Single - when batter hits the ball and reaches first base
+#### 2B = Double - when batter hits the ball and reaches second base
+#### 3B = Triple - when batter hits the ball and reaches third base
+#### HR = Home run - when batter hits the ball and circles all four bases
 
 ## Model:
 ### Long Short-term memory, recurrent neural network
+### Model loss functions: Initially tested with binary cross-entropy. Can be penalized for being very confident and very wrong in some cases.
+### Also tested with RMSE http://cs229.stanford.edu/proj2019aut/data/assignment_308875_raw/26382632.pdf since it is better for regression rather than classification.
+### Optimizer: We used Adam since it seems to be the most popular choise for LSTM RNN models and outperforms its similar counterparts RMSProp and AdaDelta
+### Epochs: We used 50, 100, and 300 to test - (http://cs229.stanford.edu/proj2019aut/data/assignment_308875_raw/26382632.pdf; they used 300 for ~200 players for reference)
+### Did more epochs do better? (Remember to keep at random state 78 to make data replicable)
+
 
 ## Data and Parameters:
 
@@ -30,8 +36,17 @@
 #### 2021 player salaries
 #### Dropped any players if they had an OPS of 0 in the year they played
 
-### Model Training:
-
 ### Model Performance Evaluation:
+#### Model predictions were slightly conservative due to the unpredictability of OPS
 
-### Variables: -
+### Results:
+#### 1 (pitcher) = P (Starting: Shohei Ohtani, Relief/Close: Will Smith)
+#### 2 (catcher) = C PJ Higgins
+#### 3 (first baseman) = 1B Ronald Guzman
+#### 4 (second baseman) = 2B Max Moroff
+#### 5 (third baseman) = 3B Isaac Paredes
+#### 6 (shortstop) = SS Gavin Lux
+#### 7 (left fielder) = LF Jake Cave
+#### 8 (center fielder) = CF Roman Quinn
+#### 9 (right fielder) = RF Kyle Garlick
+
