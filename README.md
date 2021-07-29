@@ -23,10 +23,10 @@
 ## Model:
 ### Long Short-term memory, recurrent neural network
 ### Model loss functions: Initially tested with binary cross-entropy. Can be penalized for being very confident and very wrong in some cases.
-### Also tested with RMSE http://cs229.stanford.edu/proj2019aut/data/assignment_308875_raw/26382632.pdf since it is better for regression rather than classification.
+### Also tested with RMSE http://cs229.stanford.edu/proj2019aut/data/assignment_308875_raw/26382632.pdf since it is better for regression rather than classification. We stuck with cross entropy because it didn't make any significant changes.
 ### Optimizer: We used Adam since it seems to be the most popular choise for LSTM RNN models and outperforms its similar counterparts RMSProp and AdaDelta
 ### Epochs: We used 50, 100, and 300 to test - (http://cs229.stanford.edu/proj2019aut/data/assignment_308875_raw/26382632.pdf; they used 300 for ~200 players for reference)
-### Did more epochs do better? (Remember to keep at random state 78 to make data replicable)
+### Did more epochs do better? Not necessarily, more epochs trended to more pessimmistic predictions for OPS.
 
 
 ## Data and Parameters:
@@ -39,7 +39,7 @@
 ### Model Performance Evaluation:
 #### Model predictions were slightly conservative due to the unpredictability of OPS
 
-### Results:
+### Results for 50 epochs:
 #### 1 (pitcher) = P (Starting: Shohei Ohtani, Relief/Close: Will Smith)
 #### 2 (catcher) = C PJ Higgins
 #### 3 (first baseman) = 1B Ronald Guzman
