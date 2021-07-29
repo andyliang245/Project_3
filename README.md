@@ -50,3 +50,17 @@
 #### 8 (center fielder) = CF Roman Quinn
 #### 9 (right fielder) = RF Kyle Garlick
 
+![50](https://user-images.githubusercontent.com/76201523/127423623-9c3f14fb-3808-41c8-bb09-bb0b1816bc1b.JPG)
+
+### Results for 100 epochs:
+#### 1 (pitcher) = P (Starting: Shohei Ohtani, Relief/Close: Will Smith)
+#### 2 (catcher) = C PJ Higgins
+#### 3 (first baseman) = 1B Ronald Guzman
+#### 4 (second baseman) = 2B Max Moroff
+#### 5 (third baseman) = 3B Alex Blandino
+#### 6 (shortstop) = SS Gavin Lux
+#### 7 (left fielder) = LF Jake Cave
+#### 8 (center fielder) = CF Roman Quinn
+#### 9 (right fielder) = RF Jaylin Davis
+
+![100](https://user-images.githubusercontent.com/76201523/127423638-f08cd0d7-94c3-4a1a-a454-54536babd5f6.JPG)
