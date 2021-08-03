@@ -64,3 +64,19 @@
 #### 9 (right fielder) = RF Jaylin Davis
 
 ![100](https://user-images.githubusercontent.com/76201523/127423638-f08cd0d7-94c3-4a1a-a454-54536babd5f6.JPG)
+
+## Correlation:
+### In addition to our models and team roster selections, we also explored the correlations between the wins, losses, runs scored, runs allowed, and the run differentials for the top 5 teams.
+### Key for heatmap:
+#### W = Wins
+#### L = Losses
+#### RS =  Runs Scored
+#### RA = Runs Allowed (every run scored against the defensive team)
+#### Dff = (RS - RA) Run differential
+
+![heatmap](https://user-images.githubusercontent.com/76201523/127940336-68ebca91-191b-4803-a00a-d5764843103b.JPG)
+
+### Findings:
+#### We have discovered a strong positive correlation between team wins and run differentials. Run differentials are used to predict the expected win total for a team. If it is positive, a team scores more runs than it allows and negative if it allows more runs than it scores. Generally, the higher a run differential the better. The results below support this since teams with a high (positive) run differential trend toward more wins.
+
+![scatter](https://user-images.githubusercontent.com/76201523/127941363-41365e2e-d176-42cd-9f3a-df224e53266f.JPG)
