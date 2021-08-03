@@ -66,7 +66,10 @@
 ![100](https://user-images.githubusercontent.com/76201523/127423638-f08cd0d7-94c3-4a1a-a454-54536babd5f6.JPG)
 
 ## Correlation:
-### In addition to our models and team roster selections, we also explored the correlations between the wins, losses, runs scored, runs allowed, and the run differentials for the top 5 teams.
+### In addition to our models and team roster selections, we also explored the correlations between the wins, losses, runs scored, runs allowed, and the run differentials.
+
+![teams](https://user-images.githubusercontent.com/76201523/127941610-4704012c-c43b-4d8c-bd56-e5ac2a3a8f76.JPG)
+
 ### Key for heatmap:
 #### W = Wins
 #### L = Losses
