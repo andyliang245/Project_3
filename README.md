@@ -1,4 +1,4 @@
-# Project_3
+# Project_3: MoneyBall
 
 ## Hypothesis:
 ### Use a machine learning model to predict the 2021 OPS (On-base Plus Slugging) for the entire roster of MLB players and select a full roster of players with the highest OPS for their salary.
